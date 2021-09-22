@@ -13,6 +13,7 @@ function cheakInput() {
     } else if(tel == ""){
         alert('Введите, пожалуйста, телефон!');
     } else {
-        alert('Добро пожаловать, ' + nickName + '!');
+        //alert('Добро пожаловать, ' + nickName + '!');
+        alert(`Добро пожаловать, ${nickName}!`);
     }
 }
